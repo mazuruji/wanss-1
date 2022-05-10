@@ -1,0 +1,23 @@
+#foundMember li {
+	background-image: url(../members/images/founding_arrow.gif);
+	background-repeat: no-repeat;
+	background-position: left center;
+	padding-left: 15px;
+	list-style-type: none;
+	line-height: 160%;
+	font-size: 75%;
+	margin-bottom: 5px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+#news li {
+	background-image: url(../members/images/founding_arrow.gif);
+	background-repeat: no-repeat;
+	background-position: left center;
+	padding-left: 15px;
+	list-style-type: none;
+	line-height: 160%;
+	font-size: 90%;
+	margin-bottom: 5px;
+	font-family: Arial, Helvetica, sans-serif;
+}

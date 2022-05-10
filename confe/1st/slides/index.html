@@ -1,0 +1,85 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<title>WANS 1st.</title>
+	<link rel="stylesheet" type="text/css" href="css/slideshow.css" media="screen" />
+    <link href="css/layout.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="js/btn.js"></script>
+	<script type="text/javascript" src="js/mootools-1.3.2-core.js"></script>
+    <script type="text/javascript" src="js/mootools-1.3.2.1-more.js"></script>
+	<script type="text/javascript" src="js/slideshow.js"></script>
+    <style type="text/css">
+    a { color: #404040; }
+    a:hover { text-decoration: none; }
+    code { color: #404040; font: normal 10px Monaco, monospace; }
+    em { color: #808080; font-style: normal; }
+    h1 { color: #000; font: normal 12px/16px Arial, sans-serif; padding: 0 20px 16px; text-transform: lowercase; }
+    h1:before { content: '.'; }
+    p { color: #404040; font: normal 12px/16px Arial, sans-serif; padding: 0 20px 16px; }
+    
+    /* Overriding the default Slideshow styles in order to achieve a custom effect */
+    
+    .slideshow-images-visible { 
+    	margin-left: 0;
+    }	
+    .slideshow-images-prev { 
+    	margin-left: 600px;
+    }
+    .slideshow-images-next { 
+    	margin-left: -600px;
+    }
+	</style>
+	<script type="text/javascript">		
+	//<![CDATA[
+	  window.addEvent('domready', function(){
+	    var data = {
+	      'wans1_01.jpg': { caption: '001' }, 
+	      'wans1_02.jpg': { caption: '002' }, 
+	      'wans1_03.jpg': { caption: '003' },
+		  'wans1_04.jpg': { caption: '004' }, 
+		  'wans1_05.jpg': { caption: '005' }, 
+		  'wans1_06.jpg': { caption: '006' }, 
+		  'wans1_07.jpg': { caption: '007' }, 
+		  'wans1_08.jpg': { caption: '008' }, 
+		  'wans1_09.jpg': { caption: '009' }, 
+		  'wans1_10.jpg': { caption: '010' }, 
+		  'wans1_11.jpg': { caption: '011' }, 
+		  'wans1_12.jpg': { caption: '012' }, 
+		  'wans1_13.jpg': { caption: '013' }, 
+		  'wans1_14.jpg': { caption: '014' }, 
+		  'wans1_15.jpg': { caption: '015' }, 
+		  'wans1_16.jpg': { caption: '016' }, 
+		  'wans1_17.jpg': { caption: '017' }, 
+		  'wans1_18.jpg': { caption: '018' }, 
+		  'wans1_19.jpg': { caption: '019' }, 
+		  'wans1_20.jpg': { caption: '020' }, 
+		  'wans1_21.jpg': { caption: '021' }, 
+		  'wans1_22.jpg': { caption: '022' }, 
+		  'wans1_23.jpg': { caption: '023' }, 
+		  'wans1_24.jpg': { caption: '024' }, 
+		  'wans1_25.jpg': { caption: '025' }, 
+		  'wans1_26.jpg': { caption: '026' }, 
+		  'wans1_27.jpg': { caption: '027' },
+		  'wans1_28.jpg': { caption: '028' },
+		  'wans1_29.jpg': { caption: '029' },
+		  'wans1_30.jpg': { caption: '030' }
+	
+	    };
+	    var myShow = new Slideshow('show', data, {delay: 5000, duration: 1250, captions: true, controller: true, height: 450, hu: 'images/', thumbnails: true, width: 600,  transition: 'back:in:out'});
+	  });
+	//]]>
+	</script>
+</head>
+<body>
+<div id="header"><p id="logoTex"><a href="../index.html"><img src="images/wans_logo.gif" alt="" /></a></p>
+<p id="screenTitle">WANS 1st. / September 19-20, 2009 <br />
+Towards creating a new domain of nursing knowledge</p>
+</div>
+<div id="screen">
+  <div id="show" class="slideshow"></div>
+</div>
+<p id="backPrev"><a href="../confe/index.html" onmouseover="img_over('btn1','over1')" onmouseout="img_out('btn1','btn1')"><img src="images/btn.gif" alt="前のページへ戻る" border="0" id="btn1" /></a></p>
+</body>
+</html>

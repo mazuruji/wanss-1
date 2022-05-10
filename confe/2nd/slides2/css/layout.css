@@ -1,0 +1,45 @@
+body{
+margin:0;
+padding:0;
+background-color:#FAFAF8;
+}
+img{
+border:0;
+}
+#screen {
+	height: 587px;
+	width: 644px;
+	background:url(../images/slidecreen.jpg) no-repeat;
+	padding:29px 0 0 25px;
+	margin:0 auto 10px;
+}
+
+#header{
+width:664px;
+margin:10px auto 0;
+}
+
+#header p{
+margin:0;
+padding:0;
+}
+
+#header p#logoTex{
+margin:5px 0 10px;
+}
+
+p#screenTitle{
+width:664px;
+font-size:12px;
+color:#669;
+font-weight:bold;
+line-height:130%;
+margin:20px 0 0 0;
+padding:0;
+clear:both;
+}
+#backPrev{
+width:644px;
+margin: 0 auto;
+text-align:center;
+}
